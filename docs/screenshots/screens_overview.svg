@@ -1,0 +1,203 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="500" viewBox="0 0 1080 500">
+  <defs>
+    <linearGradient id="topbar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#6200EE" />
+      <stop offset="100%" style="stop-color:#3700B3" />
+    </linearGradient>
+    <filter id="card">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#00000020" />
+    </filter>
+  </defs>
+
+  <!-- ---- Screen 1: Dashboard ---- -->
+  <rect x="0" y="0" width="200" height="500" fill="#FAFAFA" rx="16" />
+  <rect x="0" y="0" width="200" height="56" fill="url(#topbar)" rx="8" />
+  <rect x="0" y="40" width="200" height="16" fill="url(#topbar)" />
+  <text x="100" y="34" font-family="Arial" font-size="14" fill="white" font-weight="700" text-anchor="middle">Dashboard</text>
+  <text x="100" y="78" font-family="Arial" font-size="10" fill="#6200EE" font-weight="700" text-anchor="middle">Monday, Feb 17</text>
+  <!-- Today's Courses section -->
+  <text x="12" y="98" font-family="Arial" font-size="10" fill="#333" font-weight="700">Today's Courses</text>
+  <rect x="8" y="104" width="184" height="44" fill="white" rx="8" filter="url(#card)" />
+  <rect x="8" y="104" width="6" height="44" fill="#1976D2" rx="4" />
+  <text x="22" y="122" font-family="Arial" font-size="10" fill="#222" font-weight="600">Mathematics</text>
+  <text x="22" y="136" font-family="Arial" font-size="9" fill="#757575">09:00 – 10:30 · Room 204</text>
+  <text x="22" y="148" font-family="Arial" font-size="9" fill="#757575">Prof. Schmidt</text>
+  <!-- Upcoming Tasks -->
+  <text x="12" y="162" font-family="Arial" font-size="10" fill="#333" font-weight="700">Upcoming Tasks</text>
+  <rect x="8" y="168" width="184" height="36" fill="white" rx="8" filter="url(#card)" />
+  <rect x="8" y="168" width="6" height="36" fill="#D32F2F" rx="4" />
+  <text x="22" y="183" font-family="Arial" font-size="10" fill="#222" font-weight="600">Physics Exam</text>
+  <text x="22" y="196" font-family="Arial" font-size="9" fill="#757575">Due: Feb 20 · HIGH</text>
+  <rect x="8" y="210" width="184" height="36" fill="white" rx="8" filter="url(#card)" />
+  <rect x="8" y="210" width="6" height="36" fill="#F57C00" rx="4" />
+  <text x="22" y="225" font-family="Arial" font-size="10" fill="#222" font-weight="600">Project Report</text>
+  <text x="22" y="238" font-family="Arial" font-size="9" fill="#757575">Due: Feb 22 · MEDIUM</text>
+  <!-- Study Sessions -->
+  <text x="12" y="258" font-family="Arial" font-size="10" fill="#333" font-weight="700">Today's Study Sessions</text>
+  <rect x="8" y="264" width="184" height="36" fill="white" rx="8" filter="url(#card)" />
+  <rect x="8" y="264" width="6" height="36" fill="#388E3C" rx="4" />
+  <text x="22" y="279" font-family="Arial" font-size="10" fill="#222" font-weight="600">Calculus – Derivatives</text>
+  <text x="22" y="292" font-family="Arial" font-size="9" fill="#757575">14:00 · 45 min</text>
+  <!-- Bottom nav -->
+  <rect x="0" y="456" width="200" height="44" fill="white" filter="url(#card)" />
+  <rect x="0" y="456" width="200" height="2" fill="#E0E0E0" />
+  <text x="20" y="484" font-family="Arial" font-size="8" fill="#6200EE" text-anchor="middle">🏠</text>
+  <text x="20" y="495" font-family="Arial" font-size="7" fill="#6200EE" text-anchor="middle">Home</text>
+  <text x="60" y="484" font-family="Arial" font-size="8" fill="#9E9E9E" text-anchor="middle">📅</text>
+  <text x="60" y="495" font-family="Arial" font-size="7" fill="#9E9E9E" text-anchor="middle">Schedule</text>
+  <text x="100" y="484" font-family="Arial" font-size="8" fill="#9E9E9E" text-anchor="middle">✅</text>
+  <text x="100" y="495" font-family="Arial" font-size="7" fill="#9E9E9E" text-anchor="middle">Tasks</text>
+  <text x="140" y="484" font-family="Arial" font-size="8" fill="#9E9E9E" text-anchor="middle">⏱</text>
+  <text x="140" y="495" font-family="Arial" font-size="7" fill="#9E9E9E" text-anchor="middle">Study</text>
+  <text x="180" y="484" font-family="Arial" font-size="8" fill="#9E9E9E" text-anchor="middle">📝</text>
+  <text x="180" y="495" font-family="Arial" font-size="7" fill="#9E9E9E" text-anchor="middle">Notes</text>
+
+  <!-- ---- Divider ---- -->
+  <line x1="215" y1="0" x2="215" y2="500" stroke="#E0E0E0" stroke-width="1" />
+
+  <!-- ---- Screen 2: Schedule ---- -->
+  <rect x="217" y="0" width="200" height="500" fill="#FAFAFA" rx="16" />
+  <rect x="217" y="0" width="200" height="56" fill="url(#topbar)" rx="8" />
+  <rect x="217" y="40" width="200" height="16" fill="url(#topbar)" />
+  <text x="317" y="34" font-family="Arial" font-size="14" fill="white" font-weight="700" text-anchor="middle">Schedule</text>
+  <!-- Day tabs -->
+  <rect x="217" y="56" width="200" height="34" fill="#EDE7F6" />
+  <rect x="224" y="60" width="24" height="22" fill="#6200EE" rx="4" />
+  <text x="236" y="74" font-family="Arial" font-size="9" fill="white" text-anchor="middle" font-weight="700">Mo</text>
+  <text x="266" y="74" font-family="Arial" font-size="9" fill="#666" text-anchor="middle">Tu</text>
+  <text x="294" y="74" font-family="Arial" font-size="9" fill="#666" text-anchor="middle">We</text>
+  <text x="322" y="74" font-family="Arial" font-size="9" fill="#666" text-anchor="middle">Th</text>
+  <text x="350" y="74" font-family="Arial" font-size="9" fill="#666" text-anchor="middle">Fr</text>
+  <text x="378" y="74" font-family="Arial" font-size="9" fill="#666" text-anchor="middle">Sa</text>
+  <text x="406" y="74" font-family="Arial" font-size="9" fill="#666" text-anchor="middle">Su</text>
+  <!-- Course entries -->
+  <rect x="225" y="100" width="184" height="52" fill="white" rx="8" filter="url(#card)" />
+  <rect x="225" y="100" width="8" height="52" fill="#1976D2" rx="4" />
+  <text x="242" y="118" font-family="Arial" font-size="10" fill="#222" font-weight="700">Mathematics</text>
+  <text x="242" y="131" font-family="Arial" font-size="9" fill="#757575">09:00 – 10:30</text>
+  <text x="242" y="144" font-family="Arial" font-size="9" fill="#757575">Room 204 · Prof. Schmidt</text>
+  <rect x="225" y="160" width="184" height="52" fill="white" rx="8" filter="url(#card)" />
+  <rect x="225" y="160" width="8" height="52" fill="#388E3C" rx="4" />
+  <text x="242" y="178" font-family="Arial" font-size="10" fill="#222" font-weight="700">Biology</text>
+  <text x="242" y="191" font-family="Arial" font-size="9" fill="#757575">11:00 – 12:30</text>
+  <text x="242" y="204" font-family="Arial" font-size="9" fill="#757575">Room B12 · Dr. Müller</text>
+  <rect x="225" y="220" width="184" height="52" fill="white" rx="8" filter="url(#card)" />
+  <rect x="225" y="220" width="8" height="52" fill="#7B1FA2" rx="4" />
+  <text x="242" y="238" font-family="Arial" font-size="10" fill="#222" font-weight="700">Physics</text>
+  <text x="242" y="251" font-family="Arial" font-size="9" fill="#757575">14:00 – 15:30</text>
+  <text x="242" y="264" font-family="Arial" font-size="9" fill="#757575">Lab 3 · Prof. Bauer</text>
+  <!-- FAB -->
+  <circle cx="391" cy="430" r="22" fill="#6200EE" filter="url(#card)" />
+  <text x="391" y="436" font-family="Arial" font-size="20" fill="white" text-anchor="middle">+</text>
+
+  <!-- ---- Divider ---- -->
+  <line x1="432" y1="0" x2="432" y2="500" stroke="#E0E0E0" stroke-width="1" />
+
+  <!-- ---- Screen 3: Tasks ---- -->
+  <rect x="434" y="0" width="200" height="500" fill="#FAFAFA" rx="16" />
+  <rect x="434" y="0" width="200" height="56" fill="url(#topbar)" rx="8" />
+  <rect x="434" y="40" width="200" height="16" fill="url(#topbar)" />
+  <text x="534" y="34" font-family="Arial" font-size="14" fill="white" font-weight="700" text-anchor="middle">Tasks</text>
+  <!-- Filter chips -->
+  <rect x="434" y="56" width="200" height="34" fill="#EDE7F6" />
+  <rect x="440" y="62" width="36" height="20" fill="#6200EE" rx="10" />
+  <text x="458" y="75" font-family="Arial" font-size="8" fill="white" text-anchor="middle">All</text>
+  <rect x="482" y="62" width="54" height="20" fill="white" rx="10" />
+  <text x="509" y="75" font-family="Arial" font-size="8" fill="#6200EE" text-anchor="middle">This Week</text>
+  <rect x="542" y="62" width="38" height="20" fill="white" rx="10" />
+  <text x="561" y="75" font-family="Arial" font-size="8" fill="#6200EE" text-anchor="middle">Exams</text>
+  <rect x="586" y="62" width="42" height="20" fill="white" rx="10" />
+  <text x="607" y="75" font-family="Arial" font-size="8" fill="#6200EE" text-anchor="middle">High Pri.</text>
+  <!-- Task items -->
+  <rect x="440" y="98" width="184" height="44" fill="white" rx="8" filter="url(#card)" />
+  <rect x="440" y="98" width="4" height="44" fill="#D32F2F" rx="2" />
+  <text x="452" y="115" font-family="Arial" font-size="10" fill="#222" font-weight="700">Physics Exam</text>
+  <text x="452" y="128" font-family="Arial" font-size="9" fill="#757575">Feb 20 · EXAM · HIGH</text>
+  <rect x="602" y="107" width="14" height="14" fill="none" stroke="#BDBDBD" stroke-width="1.5" rx="3" />
+
+  <rect x="440" y="148" width="184" height="44" fill="white" rx="8" filter="url(#card)" />
+  <rect x="440" y="148" width="4" height="44" fill="#F57C00" rx="2" />
+  <text x="452" y="165" font-family="Arial" font-size="10" fill="#222" font-weight="700">Project Report</text>
+  <text x="452" y="178" font-family="Arial" font-size="9" fill="#757575">Feb 22 · PROJECT · MED</text>
+  <rect x="602" y="157" width="14" height="14" fill="none" stroke="#BDBDBD" stroke-width="1.5" rx="3" />
+
+  <rect x="440" y="198" width="184" height="44" fill="white" rx="8" filter="url(#card)" />
+  <rect x="440" y="198" width="4" height="44" fill="#388E3C" rx="2" />
+  <text x="452" y="215" font-family="Arial" font-size="10" fill="#888" font-weight="700" text-decoration="line-through">Read Chapter 5</text>
+  <text x="452" y="228" font-family="Arial" font-size="9" fill="#BDBDBD">Feb 18 · TASK · LOW</text>
+  <rect x="602" y="207" width="14" height="14" fill="#388E3C" rx="3" />
+  <text x="609" y="218" font-family="Arial" font-size="9" fill="white" text-anchor="middle">✓</text>
+
+  <!-- FAB -->
+  <circle cx="608" cy="430" r="22" fill="#6200EE" filter="url(#card)" />
+  <text x="608" y="436" font-family="Arial" font-size="20" fill="white" text-anchor="middle">+</text>
+
+  <!-- ---- Divider ---- -->
+  <line x1="648" y1="0" x2="648" y2="500" stroke="#E0E0E0" stroke-width="1" />
+
+  <!-- ---- Screen 4: Study Timer ---- -->
+  <rect x="650" y="0" width="200" height="500" fill="#FAFAFA" rx="16" />
+  <rect x="650" y="0" width="200" height="56" fill="url(#topbar)" rx="8" />
+  <rect x="650" y="40" width="200" height="16" fill="url(#topbar)" />
+  <text x="750" y="34" font-family="Arial" font-size="14" fill="white" font-weight="700" text-anchor="middle">Study Timer</text>
+  <!-- Timer circle -->
+  <circle cx="750" cy="200" r="80" fill="none" stroke="#EDE7F6" stroke-width="12" />
+  <circle cx="750" cy="200" r="80" fill="none" stroke="#6200EE" stroke-width="12"
+    stroke-dasharray="377" stroke-dashoffset="94"
+    transform="rotate(-90 750 200)" />
+  <text x="750" y="193" font-family="Arial" font-size="28" fill="#222" font-weight="700" text-anchor="middle">18:45</text>
+  <text x="750" y="215" font-family="Arial" font-size="11" fill="#757575" text-anchor="middle">remaining</text>
+  <text x="750" y="235" font-family="Arial" font-size="10" fill="#6200EE" text-anchor="middle">Calculus – Derivatives</text>
+  <!-- Controls -->
+  <circle cx="710" cy="320" r="24" fill="#EDE7F6" />
+  <text x="710" y="326" font-family="Arial" font-size="14" fill="#6200EE" text-anchor="middle">⏸</text>
+  <circle cx="750" cy="310" r="32" fill="#6200EE" filter="url(#card)" />
+  <text x="750" y="316" font-family="Arial" font-size="14" fill="white" text-anchor="middle">⏹</text>
+  <circle cx="790" cy="320" r="24" fill="#EDE7F6" />
+  <text x="790" y="326" font-family="Arial" font-size="14" fill="#6200EE" text-anchor="middle">▶</text>
+  <!-- Progress bar -->
+  <rect x="670" y="375" width="160" height="8" fill="#EDE7F6" rx="4" />
+  <rect x="670" y="375" width="100" height="8" fill="#6200EE" rx="4" />
+  <text x="750" y="400" font-family="Arial" font-size="9" fill="#757575" text-anchor="middle">Session 1 of 3 · 45 min planned</text>
+
+  <!-- ---- Divider ---- -->
+  <line x1="864" y1="0" x2="864" y2="500" stroke="#E0E0E0" stroke-width="1" />
+
+  <!-- ---- Screen 5: Notes ---- -->
+  <rect x="866" y="0" width="214" height="500" fill="#FAFAFA" rx="16" />
+  <rect x="866" y="0" width="214" height="56" fill="url(#topbar)" rx="8" />
+  <rect x="866" y="40" width="214" height="16" fill="url(#topbar)" />
+  <text x="973" y="34" font-family="Arial" font-size="14" fill="white" font-weight="700" text-anchor="middle">Notes</text>
+  <!-- Search bar -->
+  <rect x="874" y="62" width="198" height="28" fill="white" rx="14" filter="url(#card)" />
+  <text x="886" y="81" font-family="Arial" font-size="10" fill="#BDBDBD">🔍  Search notes…</text>
+  <!-- Note cards -->
+  <rect x="874" y="98" width="198" height="68" fill="white" rx="8" filter="url(#card)" />
+  <text x="886" y="116" font-family="Arial" font-size="10" fill="#222" font-weight="700">Integral Rules</text>
+  <text x="886" y="129" font-family="Arial" font-size="9" fill="#6200EE">Mathematics</text>
+  <text x="886" y="143" font-family="Arial" font-size="9" fill="#757575">∫xⁿdx = xⁿ⁺¹/(n+1) + C for n ≠ -1…</text>
+  <text x="1060" y="116" font-family="Arial" font-size="8" fill="#BDBDBD" text-anchor="end">Feb 15</text>
+
+  <rect x="874" y="174" width="198" height="68" fill="white" rx="8" filter="url(#card)" />
+  <text x="886" y="192" font-family="Arial" font-size="10" fill="#222" font-weight="700">Newton's Laws</text>
+  <text x="886" y="205" font-family="Arial" font-size="9" fill="#7B1FA2">Physics</text>
+  <text x="886" y="219" font-family="Arial" font-size="9" fill="#757575">1st: An object at rest stays at rest…</text>
+  <text x="1060" y="192" font-family="Arial" font-size="8" fill="#BDBDBD" text-anchor="end">Feb 14</text>
+
+  <rect x="874" y="250" width="198" height="68" fill="white" rx="8" filter="url(#card)" />
+  <text x="886" y="268" font-family="Arial" font-size="10" fill="#222" font-weight="700">Cell Division</text>
+  <text x="886" y="281" font-family="Arial" font-size="9" fill="#388E3C">Biology</text>
+  <text x="886" y="295" font-family="Arial" font-size="9" fill="#757575">Mitosis: Prophase → Metaphase…</text>
+  <text x="1060" y="268" font-family="Arial" font-size="8" fill="#BDBDBD" text-anchor="end">Feb 12</text>
+
+  <!-- FAB -->
+  <circle cx="1054" cy="430" r="22" fill="#6200EE" filter="url(#card)" />
+  <text x="1054" y="436" font-family="Arial" font-size="20" fill="white" text-anchor="middle">+</text>
+
+  <!-- Screen labels -->
+  <text x="100" y="490" font-family="Arial" font-size="10" fill="#6200EE" text-anchor="middle" font-weight="700">① Dashboard</text>
+  <text x="317" y="490" font-family="Arial" font-size="10" fill="#6200EE" text-anchor="middle" font-weight="700">② Schedule</text>
+  <text x="534" y="490" font-family="Arial" font-size="10" fill="#6200EE" text-anchor="middle" font-weight="700">③ Tasks</text>
+  <text x="750" y="490" font-family="Arial" font-size="10" fill="#6200EE" text-anchor="middle" font-weight="700">④ Study Timer</text>
+  <text x="973" y="490" font-family="Arial" font-size="10" fill="#6200EE" text-anchor="middle" font-weight="700">⑤ Notes</text>
+</svg>

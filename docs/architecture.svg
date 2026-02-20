@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="540" viewBox="0 0 860 540">
+  <defs>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#6200EE" />
+      <stop offset="100%" style="stop-color:#3700B3" />
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#00000030" />
+    </filter>
+  </defs>
+  <!-- Background -->
+  <rect width="860" height="540" fill="#F5F5F5" rx="12" />
+  <!-- Title -->
+  <rect width="860" height="56" fill="url(#headerGrad)" rx="12" />
+  <rect y="30" width="860" height="26" fill="url(#headerGrad)" />
+  <text x="430" y="36" font-family="'Segoe UI', Arial, sans-serif" font-size="20" font-weight="700" fill="white" text-anchor="middle">StudyRhythmo – Architecture Overview</text>
+
+  <!-- ===== UI Layer ===== -->
+  <rect x="20" y="72" width="820" height="100" fill="#EDE7F6" rx="8" filter="url(#shadow)" />
+  <text x="430" y="92" font-family="'Segoe UI', Arial, sans-serif" font-size="13" font-weight="700" fill="#4A148C" text-anchor="middle">UI Layer (Fragments + ViewBinding)</text>
+  <!-- Fragments -->
+  <rect x="36" y="100" width="120" height="56" fill="#6200EE" rx="6" />
+  <text x="96" y="124" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="white" text-anchor="middle" font-weight="600">Dashboard</text>
+  <text x="96" y="140" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#CE93D8" text-anchor="middle">Fragment</text>
+
+  <rect x="172" y="100" width="120" height="56" fill="#6200EE" rx="6" />
+  <text x="232" y="124" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="white" text-anchor="middle" font-weight="600">Schedule</text>
+  <text x="232" y="140" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#CE93D8" text-anchor="middle">Fragment</text>
+
+  <rect x="308" y="100" width="120" height="56" fill="#6200EE" rx="6" />
+  <text x="368" y="124" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="white" text-anchor="middle" font-weight="600">Tasks</text>
+  <text x="368" y="140" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#CE93D8" text-anchor="middle">Fragment</text>
+
+  <rect x="444" y="100" width="120" height="56" fill="#6200EE" rx="6" />
+  <text x="504" y="124" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="white" text-anchor="middle" font-weight="600">Study / Timer</text>
+  <text x="504" y="140" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#CE93D8" text-anchor="middle">Fragment</text>
+
+  <rect x="580" y="100" width="120" height="56" fill="#6200EE" rx="6" />
+  <text x="640" y="124" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="white" text-anchor="middle" font-weight="600">Notes</text>
+  <text x="640" y="140" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#CE93D8" text-anchor="middle">Fragment</text>
+
+  <rect x="716" y="100" width="108" height="56" fill="#7C4DFF" rx="6" />
+  <text x="770" y="124" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="white" text-anchor="middle" font-weight="600">Navigation</text>
+  <text x="770" y="140" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#CE93D8" text-anchor="middle">Component</text>
+
+  <!-- Arrow UI → ViewModel -->
+  <line x1="430" y1="172" x2="430" y2="195" stroke="#9C27B0" stroke-width="2" stroke-dasharray="5,3" marker-end="url(#arr)" />
+  <text x="440" y="188" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#9C27B0">observes LiveData</text>
+
+  <!-- ===== ViewModel Layer ===== -->
+  <rect x="20" y="196" width="820" height="90" fill="#E8EAF6" rx="8" filter="url(#shadow)" />
+  <text x="430" y="216" font-family="'Segoe UI', Arial, sans-serif" font-size="13" font-weight="700" fill="#1A237E" text-anchor="middle">ViewModel Layer</text>
+
+  <rect x="50" y="224" width="140" height="48" fill="#3949AB" rx="6" />
+  <text x="120" y="253" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="white" text-anchor="middle">DashboardViewModel</text>
+
+  <rect x="208" y="224" width="140" height="48" fill="#3949AB" rx="6" />
+  <text x="278" y="253" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="white" text-anchor="middle">ScheduleViewModel</text>
+
+  <rect x="366" y="224" width="128" height="48" fill="#3949AB" rx="6" />
+  <text x="430" y="253" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="white" text-anchor="middle">TasksViewModel</text>
+
+  <rect x="510" y="224" width="128" height="48" fill="#3949AB" rx="6" />
+  <text x="574" y="253" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="white" text-anchor="middle">StudyViewModel</text>
+
+  <rect x="654" y="224" width="128" height="48" fill="#3949AB" rx="6" />
+  <text x="718" y="253" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="white" text-anchor="middle">NotesViewModel</text>
+
+  <!-- Arrow ViewModel → Repository -->
+  <line x1="430" y1="286" x2="430" y2="308" stroke="#3F51B5" stroke-width="2" stroke-dasharray="5,3" />
+  <text x="440" y="302" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#3F51B5">calls suspend fns</text>
+
+  <!-- ===== Repository Layer ===== -->
+  <rect x="20" y="310" width="820" height="72" fill="#E3F2FD" rx="8" filter="url(#shadow)" />
+  <text x="430" y="330" font-family="'Segoe UI', Arial, sans-serif" font-size="13" font-weight="700" fill="#0D47A1" text-anchor="middle">Repository Layer (Kotlin Coroutines)</text>
+
+  <rect x="80" y="338" width="160" height="36" fill="#1565C0" rx="6" />
+  <text x="160" y="362" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="white" text-anchor="middle">CourseRepository</text>
+
+  <rect x="272" y="338" width="148" height="36" fill="#1565C0" rx="6" />
+  <text x="346" y="362" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="white" text-anchor="middle">TaskRepository</text>
+
+  <rect x="452" y="338" width="160" height="36" fill="#1565C0" rx="6" />
+  <text x="532" y="362" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="white" text-anchor="middle">StudyRepository</text>
+
+  <rect x="644" y="338" width="148" height="36" fill="#1565C0" rx="6" />
+  <text x="718" y="362" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="white" text-anchor="middle">NoteRepository</text>
+
+  <!-- Arrow Repository → Room -->
+  <line x1="430" y1="382" x2="430" y2="404" stroke="#1565C0" stroke-width="2" stroke-dasharray="5,3" />
+  <text x="440" y="399" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#1565C0">DAO calls</text>
+
+  <!-- ===== Data Layer ===== -->
+  <rect x="20" y="406" width="820" height="80" fill="#E0F7FA" rx="8" filter="url(#shadow)" />
+  <text x="270" y="426" font-family="'Segoe UI', Arial, sans-serif" font-size="13" font-weight="700" fill="#006064" text-anchor="middle">Room Database (SQLite)</text>
+
+  <rect x="50" y="434" width="100" height="36" fill="#00838F" rx="6" />
+  <text x="100" y="458" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="white" text-anchor="middle">CourseDao</text>
+
+  <rect x="166" y="434" width="100" height="36" fill="#00838F" rx="6" />
+  <text x="216" y="458" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="white" text-anchor="middle">TaskDao</text>
+
+  <rect x="282" y="434" width="128" height="36" fill="#00838F" rx="6" />
+  <text x="346" y="458" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="white" text-anchor="middle">StudySessionDao</text>
+
+  <rect x="426" y="434" width="100" height="36" fill="#00838F" rx="6" />
+  <text x="476" y="458" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="white" text-anchor="middle">NoteDao</text>
+
+  <!-- WorkManager box -->
+  <rect x="570" y="406" width="270" height="80" fill="#FFF3E0" rx="8" filter="url(#shadow)" />
+  <text x="705" y="426" font-family="'Segoe UI', Arial, sans-serif" font-size="13" font-weight="700" fill="#E65100" text-anchor="middle">WorkManager</text>
+  <rect x="586" y="434" width="112" height="36" fill="#EF6C00" rx="6" />
+  <text x="642" y="449" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="white" text-anchor="middle">CourseReminder</text>
+  <text x="642" y="463" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="white" text-anchor="middle">Worker</text>
+  <rect x="714" y="434" width="110" height="36" fill="#EF6C00" rx="6" />
+  <text x="769" y="449" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="white" text-anchor="middle">TaskReminder</text>
+  <text x="769" y="463" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="white" text-anchor="middle">Worker</text>
+
+  <!-- Legend -->
+  <text x="430" y="520" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#757575" text-anchor="middle">MVVM + Repository Pattern · Room · WorkManager · Navigation Component · Kotlin Coroutines</text>
+</svg>
