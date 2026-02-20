@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">StudyRhythmo</string>
+
+    <!-- Navigation -->
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_schedule">Schedule</string>
+    <string name="nav_tasks">Tasks</string>
+    <string name="nav_study">Study</string>
+    <string name="nav_notes">Notes</string>
+
+    <!-- Dashboard -->
+    <string name="today_courses">Today\'s Courses</string>
+    <string name="upcoming_tasks">Upcoming Tasks</string>
+    <string name="today_study_sessions">Today\'s Study Sessions</string>
+    <string name="no_courses_today">No courses today</string>
+    <string name="no_upcoming_tasks">No upcoming tasks this week</string>
+    <string name="no_study_sessions_today">No study sessions today</string>
+
+    <!-- Schedule -->
+    <string name="no_courses_this_day">No courses on this day</string>
+    <string name="add_course">Add course</string>
+    <string name="course_name">Course name</string>
+    <string name="instructor">Instructor</string>
+    <string name="room">Room</string>
+    <string name="day_of_week">Day of Week</string>
+    <string name="start_time">Start Time</string>
+    <string name="end_time">End Time</string>
+    <string name="reminder_minutes">Reminder (minutes before)</string>
+
+    <!-- Tasks -->
+    <string name="no_tasks">No tasks found</string>
+    <string name="add_task">Add task</string>
+    <string name="task_title">Task title</string>
+    <string name="description">Description</string>
+    <string name="priority">Priority</string>
+    <string name="type">Type</string>
+    <string name="due_date">Due Date</string>
+    <string name="pick_date">Pick date</string>
+    <string name="all">All</string>
+    <string name="this_week">This Week</string>
+    <string name="exams">Exams</string>
+    <string name="high_priority">High Priority</string>
+
+    <!-- Study -->
+    <string name="study_sessions">Study Sessions</string>
+    <string name="no_study_sessions">No study sessions planned</string>
+    <string name="add_study_session">Add study session</string>
+    <string name="topic">Topic</string>
+    <string name="duration_minutes">Duration (minutes)</string>
+    <string name="planned_start">Planned Start</string>
+    <string name="pick_date_time">Pick date &amp; time</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+
+    <!-- Notes -->
+    <string name="no_notes">No notes yet</string>
+    <string name="add_note">Add note</string>
+    <string name="note_title">Note title</string>
+    <string name="note_content">Note content</string>
+    <string name="search_notes">Search notes…</string>
+
+    <!-- Common -->
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+</resources>
