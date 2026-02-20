@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/dashboardFragment"
+        android:icon="@drawable/ic_dashboard"
+        android:title="@string/nav_dashboard" />
+
+    <item
+        android:id="@+id/scheduleFragment"
+        android:icon="@drawable/ic_schedule"
+        android:title="@string/nav_schedule" />
+
+    <item
+        android:id="@+id/tasksFragment"
+        android:icon="@drawable/ic_tasks"
+        android:title="@string/nav_tasks" />
+
+    <item
+        android:id="@+id/studyFragment"
+        android:icon="@drawable/ic_study"
+        android:title="@string/nav_study" />
+
+    <item
+        android:id="@+id/notesFragment"
+        android:icon="@drawable/ic_notes"
+        android:title="@string/nav_notes" />
+
+</menu>
