@@ -3,20 +3,37 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="?attr/colorBackground">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:padding="16dp">
+        android:orientation="vertical">
 
-        <androidx.appcompat.widget.SearchView
-            android:id="@+id/search_view"
+        <!-- ── Search bar ── -->
+        <com.google.android.material.card.MaterialCardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="8dp"
-            app:queryHint="@string/search_notes" />
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="4dp"
+            app:cardCornerRadius="28dp"
+            app:cardElevation="0dp"
+            app:strokeWidth="1dp"
+            app:strokeColor="?attr/colorOutline"
+            app:cardBackgroundColor="?attr/colorSurfaceVariant">
+
+            <androidx.appcompat.widget.SearchView
+                android:id="@+id/search_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:queryHint="@string/search_notes"
+                app:iconifiedByDefault="false"
+                app:searchIcon="@android:drawable/ic_menu_search" />
+
+        </com.google.android.material.card.MaterialCardView>
 
         <TextView
             android:id="@+id/text_no_notes"
@@ -25,13 +42,19 @@
             android:text="@string/no_notes"
             android:visibility="gone"
             android:gravity="center"
-            android:layout_marginTop="32dp" />
+            android:textSize="18sp"
+            android:textColor="?attr/colorOnSurfaceVariant"
+            android:layout_marginTop="48dp" />
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recycler_notes"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:paddingTop="8dp"
+            android:clipToPadding="false" />
 
     </LinearLayout>
 
@@ -42,6 +65,7 @@
         android:layout_gravity="bottom|end"
         android:layout_margin="16dp"
         android:contentDescription="@string/add_note"
+        android:elevation="8dp"
         app:srcCompat="@android:drawable/ic_input_add" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

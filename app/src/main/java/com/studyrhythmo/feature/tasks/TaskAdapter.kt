@@ -6,6 +6,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
+import com.studyrhythmo.R
 import com.studyrhythmo.data.entity.TaskEntity
 import com.studyrhythmo.data.entity.TaskPriority
 import com.studyrhythmo.databinding.ItemTaskBinding
@@ -34,9 +35,9 @@ class TaskAdapter(
             chipPriority.text = task.priority.name
             chipPriority.setChipBackgroundColorResource(
                 when (task.priority) {
-                    TaskPriority.HIGH -> android.R.color.holo_red_light
-                    TaskPriority.MEDIUM -> android.R.color.holo_orange_light
-                    TaskPriority.LOW -> android.R.color.holo_green_light
+                    TaskPriority.HIGH -> R.color.priority_high_container
+                    TaskPriority.MEDIUM -> R.color.priority_medium_container
+                    TaskPriority.LOW -> R.color.priority_low_container
                 }
             )
             checkboxComplete.isChecked = task.isCompleted

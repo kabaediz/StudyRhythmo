@@ -3,51 +3,64 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="?attr/colorBackground">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:padding="16dp">
+        android:orientation="vertical">
 
-        <com.google.android.material.chip.ChipGroup
+        <!-- ── Filter chips ── -->
+        <HorizontalScrollView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="8dp"
-            app:singleSelection="true">
+            android:scrollbars="none"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:paddingTop="12dp"
+            android:paddingBottom="4dp"
+            android:clipToPadding="false">
 
-            <com.google.android.material.chip.Chip
-                android:id="@+id/chip_all"
+            <com.google.android.material.chip.ChipGroup
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/all"
-                style="@style/Widget.Material3.Chip.Filter"
-                android:checked="true" />
+                app:singleSelection="true"
+                app:selectionRequired="true">
 
-            <com.google.android.material.chip.Chip
-                android:id="@+id/chip_this_week"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/this_week"
-                style="@style/Widget.Material3.Chip.Filter" />
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip_all"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/all"
+                    style="@style/Widget.Material3.Chip.Filter"
+                    android:checked="true" />
 
-            <com.google.android.material.chip.Chip
-                android:id="@+id/chip_exams"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/exams"
-                style="@style/Widget.Material3.Chip.Filter" />
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip_this_week"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/this_week"
+                    style="@style/Widget.Material3.Chip.Filter" />
 
-            <com.google.android.material.chip.Chip
-                android:id="@+id/chip_high_priority"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/high_priority"
-                style="@style/Widget.Material3.Chip.Filter" />
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip_exams"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/exams"
+                    style="@style/Widget.Material3.Chip.Filter" />
 
-        </com.google.android.material.chip.ChipGroup>
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip_high_priority"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/high_priority"
+                    style="@style/Widget.Material3.Chip.Filter" />
 
+            </com.google.android.material.chip.ChipGroup>
+        </HorizontalScrollView>
+
+        <!-- ── Empty state ── -->
         <TextView
             android:id="@+id/text_no_tasks"
             android:layout_width="match_parent"
@@ -55,13 +68,21 @@
             android:text="@string/no_tasks"
             android:visibility="gone"
             android:gravity="center"
-            android:layout_marginTop="32dp" />
+            android:textSize="18sp"
+            android:textColor="?attr/colorOnSurfaceVariant"
+            android:layout_marginTop="48dp"
+            android:layout_marginBottom="8dp" />
 
+        <!-- ── Task list ── -->
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recycler_tasks"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:paddingTop="8dp"
+            android:clipToPadding="false" />
 
     </LinearLayout>
 
@@ -72,6 +93,7 @@
         android:layout_gravity="bottom|end"
         android:layout_margin="16dp"
         android:contentDescription="@string/add_task"
+        android:elevation="8dp"
         app:srcCompat="@android:drawable/ic_input_add" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
