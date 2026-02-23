@@ -1,29 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    android:padding="32dp">
+    android:padding="32dp"
+    android:background="?attr/colorBackground">
 
-    <TextView
-        android:id="@+id/text_timer"
+    <!-- ── Circular progress ring with timer inside ── -->
+    <FrameLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="00:00"
-        android:textSize="72sp"
-        android:textStyle="bold"
-        android:fontFamily="monospace"
-        android:layout_marginBottom="16dp" />
+        android:layout_marginBottom="40dp">
 
-    <TextView
-        android:id="@+id/text_status"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text=""
-        android:textSize="18sp"
-        android:layout_marginBottom="32dp" />
+        <com.google.android.material.progressindicator.CircularProgressIndicator
+            android:id="@+id/progress_timer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:indicatorSize="240dp"
+            app:trackThickness="10dp"
+            app:indicatorColor="?attr/colorPrimary"
+            app:trackColor="?attr/colorSurfaceVariant"
+            app:trackCornerRadius="5dp"
+            android:progress="100"
+            android:max="100" />
 
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/text_timer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="00:00"
+                android:textSize="52sp"
+                android:textStyle="bold"
+                android:fontFamily="monospace"
+                android:textColor="?attr/colorOnBackground" />
+
+            <TextView
+                android:id="@+id/text_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="14sp"
+                android:textColor="?attr/colorOnSurfaceVariant"
+                android:layout_marginTop="4dp" />
+
+        </LinearLayout>
+    </FrameLayout>
+
+    <!-- ── Control buttons ── -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -32,15 +65,18 @@
 
         <Button
             android:id="@+id/btn_start"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="@string/start"
-            android:layout_marginEnd="16dp" />
+            android:layout_weight="1"
+            android:layout_marginEnd="8dp"
+            android:text="@string/start" />
 
         <Button
             android:id="@+id/btn_stop"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="8dp"
             android:text="@string/stop"
             style="@style/Widget.Material3.Button.OutlinedButton"
             android:enabled="false" />

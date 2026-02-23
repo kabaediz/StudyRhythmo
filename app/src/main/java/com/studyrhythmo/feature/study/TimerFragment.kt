@@ -9,6 +9,7 @@ import androidx.fragment.app.viewModels
 import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
+import com.studyrhythmo.R
 import com.studyrhythmo.databinding.FragmentTimerBinding
 import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.launch
@@ -43,8 +44,10 @@ class TimerFragment : Fragment() {
                 binding.textTimer.text = "%02d:%02d".format(minutes, seconds)
                 binding.btnStart.isEnabled = !state.isRunning
                 binding.btnStop.isEnabled = state.isRunning
+                val progress = if (state.totalSeconds > 0) (state.remainingSeconds * 100 / state.totalSeconds).toInt() else 100
+                binding.progressTimer.setProgressCompat(progress, true)
                 if (!state.isRunning && state.remainingSeconds == 0L && state.totalSeconds > 0) {
-                    binding.textStatus.text = "Session complete!"
+                    binding.textStatus.text = getString(R.string.session_complete)
                 }
             }
         }

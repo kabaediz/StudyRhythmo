@@ -3,31 +3,84 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="?attr/colorBackground">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:padding="16dp">
+        android:orientation="vertical">
 
+        <!-- ── Day selector (horizontal scroll of pill chips) ── -->
         <HorizontalScrollView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="16dp">
+            android:scrollbars="none"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:paddingTop="12dp"
+            android:paddingBottom="8dp"
+            android:clipToPadding="false">
 
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
 
-                <Button android:id="@+id/btn_mon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Mon" style="@style/Widget.Material3.Button.TonalButton" android:layout_marginEnd="4dp" />
-                <Button android:id="@+id/btn_tue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Tue" style="@style/Widget.Material3.Button.TonalButton" android:layout_marginEnd="4dp" />
-                <Button android:id="@+id/btn_wed" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Wed" style="@style/Widget.Material3.Button.TonalButton" android:layout_marginEnd="4dp" />
-                <Button android:id="@+id/btn_thu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Thu" style="@style/Widget.Material3.Button.TonalButton" android:layout_marginEnd="4dp" />
-                <Button android:id="@+id/btn_fri" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Fri" style="@style/Widget.Material3.Button.TonalButton" android:layout_marginEnd="4dp" />
-                <Button android:id="@+id/btn_sat" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Sat" style="@style/Widget.Material3.Button.TonalButton" android:layout_marginEnd="4dp" />
-                <Button android:id="@+id/btn_sun" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Sun" style="@style/Widget.Material3.Button.TonalButton" />
+                <Button
+                    android:id="@+id/btn_mon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mo"
+                    style="@style/Widget.Material3.Button.TonalButton"
+                    android:layout_marginEnd="6dp" />
+
+                <Button
+                    android:id="@+id/btn_tue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Di"
+                    style="@style/Widget.Material3.Button.TonalButton"
+                    android:layout_marginEnd="6dp" />
+
+                <Button
+                    android:id="@+id/btn_wed"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mi"
+                    style="@style/Widget.Material3.Button.TonalButton"
+                    android:layout_marginEnd="6dp" />
+
+                <Button
+                    android:id="@+id/btn_thu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Do"
+                    style="@style/Widget.Material3.Button.TonalButton"
+                    android:layout_marginEnd="6dp" />
+
+                <Button
+                    android:id="@+id/btn_fri"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fr"
+                    style="@style/Widget.Material3.Button.TonalButton"
+                    android:layout_marginEnd="6dp" />
+
+                <Button
+                    android:id="@+id/btn_sat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sa"
+                    style="@style/Widget.Material3.Button.TonalButton"
+                    android:layout_marginEnd="6dp" />
+
+                <Button
+                    android:id="@+id/btn_sun"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="So"
+                    style="@style/Widget.Material3.Button.TonalButton" />
 
             </LinearLayout>
         </HorizontalScrollView>
@@ -39,13 +92,19 @@
             android:text="@string/no_courses_this_day"
             android:visibility="gone"
             android:gravity="center"
-            android:layout_marginTop="32dp" />
+            android:textSize="18sp"
+            android:textColor="?attr/colorOnSurfaceVariant"
+            android:layout_marginTop="48dp" />
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recycler_courses"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:paddingTop="8dp"
+            android:clipToPadding="false" />
 
     </LinearLayout>
 
@@ -56,6 +115,7 @@
         android:layout_gravity="bottom|end"
         android:layout_margin="16dp"
         android:contentDescription="@string/add_course"
+        android:elevation="8dp"
         app:srcCompat="@android:drawable/ic_input_add" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

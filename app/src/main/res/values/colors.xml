@@ -1,17 +1,72 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="purple_500">#FF6200EE</color>
-    <color name="purple_700">#FF3700B3</color>
-    <color name="teal_200">#FF03DAC5</color>
-    <color name="teal_700">#FF018786</color>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <!-- ── Indigo Primary ── #6366F1 -->
+    <color name="indigo_50">#EEF2FF</color>
+    <color name="indigo_100">#E0E7FF</color>
+    <color name="indigo_200">#C7D2FE</color>
+    <color name="indigo_300">#A5B4FC</color>
+    <color name="indigo_400">#818CF8</color>
+    <color name="indigo_500">#6366F1</color>
+    <color name="indigo_600">#4F46E5</color>
+    <color name="indigo_700">#4338CA</color>
+    <color name="indigo_800">#3730A3</color>
+    <color name="indigo_900">#312E81</color>
 
-    <!-- Course colors -->
-    <color name="course_blue">#FF1976D2</color>
-    <color name="course_green">#FF388E3C</color>
-    <color name="course_orange">#FFF57C00</color>
-    <color name="course_red">#FFD32F2F</color>
-    <color name="course_purple">#FF7B1FA2</color>
-    <color name="course_teal">#FF00796B</color>
+    <!-- ── Emerald Secondary ── #10B981 -->
+    <color name="emerald_50">#ECFDF5</color>
+    <color name="emerald_100">#D1FAE5</color>
+    <color name="emerald_200">#A7F3D0</color>
+    <color name="emerald_400">#34D399</color>
+    <color name="emerald_500">#10B981</color>
+    <color name="emerald_600">#059669</color>
+    <color name="emerald_700">#047857</color>
+    <color name="emerald_800">#065F46</color>
+    <color name="emerald_900">#064E3B</color>
+
+    <!-- ── Amber Tertiary ── #F59E0B -->
+    <color name="amber_100">#FEF3C7</color>
+    <color name="amber_400">#FBBF24</color>
+    <color name="amber_500">#F59E0B</color>
+    <color name="amber_700">#B45309</color>
+    <color name="amber_900">#78350F</color>
+
+    <!-- ── Red / Error ── #EF4444 -->
+    <color name="red_100">#FEE2E2</color>
+    <color name="red_400">#F87171</color>
+    <color name="red_500">#EF4444</color>
+    <color name="red_700">#B91C1C</color>
+    <color name="red_900">#7F1D1D</color>
+
+    <!-- ── Slate Neutrals ── -->
+    <color name="slate_50">#F8FAFC</color>
+    <color name="slate_100">#F1F5F9</color>
+    <color name="slate_200">#E2E8F0</color>
+    <color name="slate_300">#CBD5E1</color>
+    <color name="slate_400">#94A3B8</color>
+    <color name="slate_500">#64748B</color>
+    <color name="slate_600">#475569</color>
+    <color name="slate_700">#334155</color>
+    <color name="slate_800">#1E293B</color>
+    <color name="slate_900">#0F172A</color>
+    <color name="slate_950">#020617</color>
+
+    <!-- ── Semantic ── -->
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+
+    <!-- ── Priority chip backgrounds ── -->
+    <color name="priority_high">#EF4444</color>
+    <color name="priority_high_container">#FEE2E2</color>
+    <color name="priority_medium">#F59E0B</color>
+    <color name="priority_medium_container">#FEF3C7</color>
+    <color name="priority_low">#10B981</color>
+    <color name="priority_low_container">#D1FAE5</color>
+
+    <!-- ── Course accent colours ── -->
+    <color name="course_indigo">#6366F1</color>
+    <color name="course_emerald">#10B981</color>
+    <color name="course_amber">#F59E0B</color>
+    <color name="course_rose">#F43F5E</color>
+    <color name="course_violet">#8B5CF6</color>
+    <color name="course_sky">#0EA5E9</color>
 </resources>

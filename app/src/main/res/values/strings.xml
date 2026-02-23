@@ -3,66 +3,68 @@
     <string name="app_name">StudyRhythmo</string>
 
     <!-- Navigation -->
-    <string name="nav_dashboard">Dashboard</string>
-    <string name="nav_schedule">Schedule</string>
-    <string name="nav_tasks">Tasks</string>
-    <string name="nav_study">Study</string>
-    <string name="nav_notes">Notes</string>
+    <string name="nav_dashboard">Heute</string>
+    <string name="nav_schedule">Stundenplan</string>
+    <string name="nav_tasks">Aufgaben</string>
+    <string name="nav_study">Lernen</string>
+    <string name="nav_notes">Notizen</string>
 
     <!-- Dashboard -->
-    <string name="today_courses">Today\'s Courses</string>
-    <string name="upcoming_tasks">Upcoming Tasks</string>
-    <string name="today_study_sessions">Today\'s Study Sessions</string>
-    <string name="no_courses_today">No courses today</string>
-    <string name="no_upcoming_tasks">No upcoming tasks this week</string>
-    <string name="no_study_sessions_today">No study sessions today</string>
+    <string name="today_courses">Heutige Kurse</string>
+    <string name="upcoming_tasks">Bevorstehende Aufgaben</string>
+    <string name="today_study_sessions">Heutige Lernsessions</string>
+    <string name="no_courses_today">Keine Kurse heute ✨</string>
+    <string name="no_upcoming_tasks">Keine Aufgaben diese Woche 🎉</string>
+    <string name="no_study_sessions_today">Keine Lernsessions heute</string>
+    <string name="dashboard_subtitle">Dein Studientag im Überblick</string>
 
     <!-- Schedule -->
-    <string name="no_courses_this_day">No courses on this day</string>
-    <string name="add_course">Add course</string>
-    <string name="course_name">Course name</string>
-    <string name="instructor">Instructor</string>
-    <string name="room">Room</string>
-    <string name="day_of_week">Day of Week</string>
-    <string name="start_time">Start Time</string>
-    <string name="end_time">End Time</string>
-    <string name="reminder_minutes">Reminder (minutes before)</string>
+    <string name="no_courses_this_day">Keine Kurse an diesem Tag 📅</string>
+    <string name="add_course">Kurs hinzufügen</string>
+    <string name="course_name">Kursname</string>
+    <string name="instructor">Dozent</string>
+    <string name="room">Raum</string>
+    <string name="day_of_week">Wochentag</string>
+    <string name="start_time">Startzeit</string>
+    <string name="end_time">Endzeit</string>
+    <string name="reminder_minutes">Erinnerung (Minuten vorher)</string>
 
     <!-- Tasks -->
-    <string name="no_tasks">No tasks found</string>
-    <string name="add_task">Add task</string>
-    <string name="task_title">Task title</string>
-    <string name="description">Description</string>
-    <string name="priority">Priority</string>
-    <string name="type">Type</string>
-    <string name="due_date">Due Date</string>
-    <string name="pick_date">Pick date</string>
-    <string name="all">All</string>
-    <string name="this_week">This Week</string>
-    <string name="exams">Exams</string>
-    <string name="high_priority">High Priority</string>
+    <string name="no_tasks">Keine Aufgaben 🎉</string>
+    <string name="add_task">Aufgabe hinzufügen</string>
+    <string name="task_title">Aufgabentitel</string>
+    <string name="description">Beschreibung</string>
+    <string name="priority">Priorität</string>
+    <string name="type">Typ</string>
+    <string name="due_date">Fälligkeitsdatum</string>
+    <string name="pick_date">Datum wählen</string>
+    <string name="all">Alle</string>
+    <string name="this_week">Diese Woche</string>
+    <string name="exams">Prüfungen</string>
+    <string name="high_priority">Hohe Priorität</string>
 
     <!-- Study -->
-    <string name="study_sessions">Study Sessions</string>
-    <string name="no_study_sessions">No study sessions planned</string>
-    <string name="add_study_session">Add study session</string>
-    <string name="topic">Topic</string>
-    <string name="duration_minutes">Duration (minutes)</string>
-    <string name="planned_start">Planned Start</string>
-    <string name="pick_date_time">Pick date &amp; time</string>
-    <string name="start">Start</string>
-    <string name="stop">Stop</string>
+    <string name="study_sessions">Lernsessions</string>
+    <string name="no_study_sessions">Keine Sessions geplant ⏱️</string>
+    <string name="add_study_session">Lernsession hinzufügen</string>
+    <string name="topic">Thema</string>
+    <string name="duration_minutes">Dauer (Minuten)</string>
+    <string name="planned_start">Geplanter Start</string>
+    <string name="pick_date_time">Datum &amp; Zeit wählen</string>
+    <string name="start">Starten</string>
+    <string name="stop">Stoppen</string>
+    <string name="session_complete">Session abgeschlossen! 🎉</string>
 
     <!-- Notes -->
-    <string name="no_notes">No notes yet</string>
-    <string name="add_note">Add note</string>
-    <string name="note_title">Note title</string>
-    <string name="note_content">Note content</string>
-    <string name="search_notes">Search notes…</string>
+    <string name="no_notes">Noch keine Notizen 📝</string>
+    <string name="add_note">Notiz hinzufügen</string>
+    <string name="note_title">Notiztitel</string>
+    <string name="note_content">Notizinhalt</string>
+    <string name="search_notes">Notizen durchsuchen…</string>
 
     <!-- Common -->
-    <string name="save">Save</string>
-    <string name="cancel">Cancel</string>
-    <string name="edit">Edit</string>
-    <string name="delete">Delete</string>
+    <string name="save">Speichern</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="edit">Bearbeiten</string>
+    <string name="delete">Löschen</string>
 </resources>
