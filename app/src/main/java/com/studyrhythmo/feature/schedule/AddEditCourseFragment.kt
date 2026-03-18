@@ -45,7 +45,7 @@ class AddEditCourseFragment : Fragment() {
 
         if (args.courseId > 0) {
             viewLifecycleOwner.lifecycleScope.launch {
-                val repo = CourseRepository(AppDatabase.getInstance(requireContext()).courseDao())
+                val repo = CourseRepository(AppDatabase.getInstance(requireContext()).courseDao(), requireContext())
                 editingCourse = repo.getCourseById(args.courseId)
                 editingCourse?.let { populateFields(it) }
             }

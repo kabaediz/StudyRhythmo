@@ -89,7 +89,8 @@
                 android:paddingStart="16dp"
                 android:paddingEnd="16dp"
                 android:clipToPadding="false"
-                android:layout_marginBottom="16dp" />
+                android:layout_marginBottom="16dp"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
 
             <!-- ── Upcoming Tasks ── -->
             <TextView
@@ -123,7 +124,8 @@
                 android:paddingStart="16dp"
                 android:paddingEnd="16dp"
                 android:clipToPadding="false"
-                android:layout_marginBottom="16dp" />
+                android:layout_marginBottom="16dp"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
 
             <!-- ── Today's Sessions ── -->
             <TextView
@@ -156,7 +158,8 @@
                 android:nestedScrollingEnabled="false"
                 android:paddingStart="16dp"
                 android:paddingEnd="16dp"
-                android:clipToPadding="false" />
+                android:clipToPadding="false"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
 
         </LinearLayout>
     </androidx.core.widget.NestedScrollView>

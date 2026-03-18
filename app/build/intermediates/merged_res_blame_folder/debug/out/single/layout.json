@@ -1,106 +1,86 @@
 [
     {
-        "merged": "C:\\Users\\ediz_\\.gradle\\daemon\\8.4\\com.studyrhythmo.app-mergeDebugResources-3:\\layout\\item_note.xml",
-        "source": "C:\\Users\\ediz_\\.gradle\\daemon\\8.4\\com.studyrhythmo.app-main-6:\\layout\\item_note.xml"
+        "merged": "com.studyrhythmo.app-mergeDebugResources-53:/layout/fragment_tasks.xml",
+        "source": "com.studyrhythmo.app-main-56:/layout/fragment_tasks.xml"
     },
     {
-        "merged": "C:\\Users\\ediz_\\.gradle\\daemon\\8.4\\com.studyrhythmo.app-mergeDebugResources-3:\\layout\\fragment_add_edit_course.xml",
-        "source": "C:\\Users\\ediz_\\.gradle\\daemon\\8.4\\com.studyrhythmo.app-main-6:\\layout\\fragment_add_edit_course.xml"
+        "merged": "C:\\Users\\ediz_\\.gradle\\daemon\\8.4\\com.studyrhythmo.app-mergeDebugResources-53:\\layout\\fragment_tasks.xml",
+        "source": "C:\\Users\\ediz_\\.gradle\\daemon\\8.4\\com.studyrhythmo.app-main-56:\\layout\\fragment_tasks.xml"
     },
     {
-        "merged": "C:\\Users\\ediz_\\.gradle\\daemon\\8.4\\com.studyrhythmo.app-mergeDebugResources-3:\\layout\\fragment_tasks.xml",
-        "source": "C:\\Users\\ediz_\\.gradle\\daemon\\8.4\\com.studyrhythmo.app-main-6:\\layout\\fragment_tasks.xml"
+        "merged": "com.studyrhythmo.app-mergeDebugResources-53:/layout/fragment_schedule.xml",
+        "source": "com.studyrhythmo.app-main-56:/layout/fragment_schedule.xml"
     },
     {
-        "merged": "C:\\Users\\ediz_\\.gradle\\daemon\\8.4\\com.studyrhythmo.app-mergeDebugResources-3:\\layout\\fragment_add_edit_task.xml",
-        "source": "C:\\Users\\ediz_\\.gradle\\daemon\\8.4\\com.studyrhythmo.app-main-6:\\layout\\fragment_add_edit_task.xml"
+        "merged": "C:\\Users\\ediz_\\.gradle\\daemon\\8.4\\com.studyrhythmo.app-mergeDebugResources-53:\\layout\\item_today_event.xml",
+        "source": "C:\\Users\\ediz_\\.gradle\\daemon\\8.4\\com.studyrhythmo.app-main-56:\\layout\\item_today_event.xml"
     },
     {
-        "merged": "com.studyrhythmo.app-mergeDebugResources-3:/layout/fragment_tasks.xml",
-        "source": "com.studyrhythmo.app-main-6:/layout/fragment_tasks.xml"
+        "merged": "C:\\Users\\ediz_\\.gradle\\daemon\\8.4\\com.studyrhythmo.app-mergeDebugResources-53:\\layout\\fragment_add_edit_task.xml",
+        "source": "C:\\Users\\ediz_\\.gradle\\daemon\\8.4\\com.studyrhythmo.app-main-56:\\layout\\fragment_add_edit_task.xml"
     },
     {
-        "merged": "com.studyrhythmo.app-mergeDebugResources-3:/layout/fragment_add_edit_course.xml",
-        "source": "com.studyrhythmo.app-main-6:/layout/fragment_add_edit_course.xml"
+        "merged": "C:\\Users\\ediz_\\.gradle\\daemon\\8.4\\com.studyrhythmo.app-mergeDebugResources-53:\\layout\\fragment_add_edit_course.xml",
+        "source": "C:\\Users\\ediz_\\.gradle\\daemon\\8.4\\com.studyrhythmo.app-main-56:\\layout\\fragment_add_edit_course.xml"
     },
     {
-        "merged": "C:\\Users\\ediz_\\.gradle\\daemon\\8.4\\com.studyrhythmo.app-mergeDebugResources-3:\\layout\\item_today_event.xml",
-        "source": "C:\\Users\\ediz_\\.gradle\\daemon\\8.4\\com.studyrhythmo.app-main-6:\\layout\\item_today_event.xml"
+        "merged": "com.studyrhythmo.app-mergeDebugResources-53:/layout/fragment_dashboard.xml",
+        "source": "com.studyrhythmo.app-main-56:/layout/fragment_dashboard.xml"
     },
     {
-        "merged": "com.studyrhythmo.app-mergeDebugResources-3:/layout/fragment_study.xml",
-        "source": "com.studyrhythmo.app-main-6:/layout/fragment_study.xml"
+        "merged": "com.studyrhythmo.app-mergeDebugResources-53:/layout/fragment_study.xml",
+        "source": "com.studyrhythmo.app-main-56:/layout/fragment_study.xml"
     },
     {
-        "merged": "com.studyrhythmo.app-mergeDebugResources-3:/layout/fragment_timer.xml",
-        "source": "com.studyrhythmo.app-main-6:/layout/fragment_timer.xml"
+        "merged": "C:\\Users\\ediz_\\.gradle\\daemon\\8.4\\com.studyrhythmo.app-mergeDebugResources-53:\\layout\\fragment_add_edit_session.xml",
+        "source": "C:\\Users\\ediz_\\.gradle\\daemon\\8.4\\com.studyrhythmo.app-main-56:\\layout\\fragment_add_edit_session.xml"
     },
     {
-        "merged": "C:\\Users\\ediz_\\.gradle\\daemon\\8.4\\com.studyrhythmo.app-mergeDebugResources-3:\\layout\\item_course.xml",
-        "source": "C:\\Users\\ediz_\\.gradle\\daemon\\8.4\\com.studyrhythmo.app-main-6:\\layout\\item_course.xml"
+        "merged": "C:\\Users\\ediz_\\.gradle\\daemon\\8.4\\com.studyrhythmo.app-mergeDebugResources-53:\\layout\\item_task.xml",
+        "source": "C:\\Users\\ediz_\\.gradle\\daemon\\8.4\\com.studyrhythmo.app-main-56:\\layout\\item_task.xml"
     },
     {
-        "merged": "com.studyrhythmo.app-mergeDebugResources-3:/layout/fragment_add_edit_note.xml",
-        "source": "com.studyrhythmo.app-main-6:/layout/fragment_add_edit_note.xml"
+        "merged": "com.studyrhythmo.app-mergeDebugResources-53:/layout/fragment_notes.xml",
+        "source": "com.studyrhythmo.app-main-56:/layout/fragment_notes.xml"
     },
     {
-        "merged": "com.studyrhythmo.app-mergeDebugResources-3:/layout/fragment_dashboard.xml",
-        "source": "com.studyrhythmo.app-main-6:/layout/fragment_dashboard.xml"
+        "merged": "C:\\Users\\ediz_\\.gradle\\daemon\\8.4\\com.studyrhythmo.app-mergeDebugResources-53:\\layout\\fragment_schedule.xml",
+        "source": "C:\\Users\\ediz_\\.gradle\\daemon\\8.4\\com.studyrhythmo.app-main-56:\\layout\\fragment_schedule.xml"
     },
     {
-        "merged": "com.studyrhythmo.app-mergeDebugResources-3:/layout/fragment_notes.xml",
-        "source": "com.studyrhythmo.app-main-6:/layout/fragment_notes.xml"
+        "merged": "C:\\Users\\ediz_\\.gradle\\daemon\\8.4\\com.studyrhythmo.app-mergeDebugResources-53:\\layout\\fragment_dashboard.xml",
+        "source": "C:\\Users\\ediz_\\.gradle\\daemon\\8.4\\com.studyrhythmo.app-main-56:\\layout\\fragment_dashboard.xml"
     },
     {
-        "merged": "C:\\Users\\ediz_\\.gradle\\daemon\\8.4\\com.studyrhythmo.app-mergeDebugResources-3:\\layout\\activity_main.xml",
-        "source": "C:\\Users\\ediz_\\.gradle\\daemon\\8.4\\com.studyrhythmo.app-main-6:\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\ediz_\\.gradle\\daemon\\8.4\\com.studyrhythmo.app-mergeDebugResources-53:\\layout\\fragment_add_edit_note.xml",
+        "source": "C:\\Users\\ediz_\\.gradle\\daemon\\8.4\\com.studyrhythmo.app-main-56:\\layout\\fragment_add_edit_note.xml"
     },
     {
-        "merged": "com.studyrhythmo.app-mergeDebugResources-3:/layout/fragment_add_edit_session.xml",
-        "source": "com.studyrhythmo.app-main-6:/layout/fragment_add_edit_session.xml"
+        "merged": "C:\\Users\\ediz_\\.gradle\\daemon\\8.4\\com.studyrhythmo.app-mergeDebugResources-53:\\layout\\fragment_notes.xml",
+        "source": "C:\\Users\\ediz_\\.gradle\\daemon\\8.4\\com.studyrhythmo.app-main-56:\\layout\\fragment_notes.xml"
     },
     {
-        "merged": "C:\\Users\\ediz_\\.gradle\\daemon\\8.4\\com.studyrhythmo.app-mergeDebugResources-3:\\layout\\fragment_add_edit_note.xml",
-        "source": "C:\\Users\\ediz_\\.gradle\\daemon\\8.4\\com.studyrhythmo.app-main-6:\\layout\\fragment_add_edit_note.xml"
+        "merged": "C:\\Users\\ediz_\\.gradle\\daemon\\8.4\\com.studyrhythmo.app-mergeDebugResources-53:\\layout\\item_course.xml",
+        "source": "C:\\Users\\ediz_\\.gradle\\daemon\\8.4\\com.studyrhythmo.app-main-56:\\layout\\item_course.xml"
     },
     {
-        "merged": "C:\\Users\\ediz_\\.gradle\\daemon\\8.4\\com.studyrhythmo.app-mergeDebugResources-3:\\layout\\fragment_timer.xml",
-        "source": "C:\\Users\\ediz_\\.gradle\\daemon\\8.4\\com.studyrhythmo.app-main-6:\\layout\\fragment_timer.xml"
+        "merged": "C:\\Users\\ediz_\\.gradle\\daemon\\8.4\\com.studyrhythmo.app-mergeDebugResources-53:\\layout\\item_study_session.xml",
+        "source": "C:\\Users\\ediz_\\.gradle\\daemon\\8.4\\com.studyrhythmo.app-main-56:\\layout\\item_study_session.xml"
     },
     {
-        "merged": "com.studyrhythmo.app-mergeDebugResources-3:/layout/fragment_schedule.xml",
-        "source": "com.studyrhythmo.app-main-6:/layout/fragment_schedule.xml"
+        "merged": "C:\\Users\\ediz_\\.gradle\\daemon\\8.4\\com.studyrhythmo.app-mergeDebugResources-53:\\layout\\item_note.xml",
+        "source": "C:\\Users\\ediz_\\.gradle\\daemon\\8.4\\com.studyrhythmo.app-main-56:\\layout\\item_note.xml"
     },
     {
-        "merged": "C:\\Users\\ediz_\\.gradle\\daemon\\8.4\\com.studyrhythmo.app-mergeDebugResources-3:\\layout\\fragment_study.xml",
-        "source": "C:\\Users\\ediz_\\.gradle\\daemon\\8.4\\com.studyrhythmo.app-main-6:\\layout\\fragment_study.xml"
+        "merged": "C:\\Users\\ediz_\\.gradle\\daemon\\8.4\\com.studyrhythmo.app-mergeDebugResources-53:\\layout\\fragment_study.xml",
+        "source": "C:\\Users\\ediz_\\.gradle\\daemon\\8.4\\com.studyrhythmo.app-main-56:\\layout\\fragment_study.xml"
     },
     {
-        "merged": "C:\\Users\\ediz_\\.gradle\\daemon\\8.4\\com.studyrhythmo.app-mergeDebugResources-3:\\layout\\fragment_add_edit_session.xml",
-        "source": "C:\\Users\\ediz_\\.gradle\\daemon\\8.4\\com.studyrhythmo.app-main-6:\\layout\\fragment_add_edit_session.xml"
+        "merged": "C:\\Users\\ediz_\\.gradle\\daemon\\8.4\\com.studyrhythmo.app-mergeDebugResources-53:\\layout\\fragment_timer.xml",
+        "source": "C:\\Users\\ediz_\\.gradle\\daemon\\8.4\\com.studyrhythmo.app-main-56:\\layout\\fragment_timer.xml"
     },
     {
-        "merged": "C:\\Users\\ediz_\\.gradle\\daemon\\8.4\\com.studyrhythmo.app-mergeDebugResources-3:\\layout\\item_task.xml",
-        "source": "C:\\Users\\ediz_\\.gradle\\daemon\\8.4\\com.studyrhythmo.app-main-6:\\layout\\item_task.xml"
-    },
-    {
-        "merged": "C:\\Users\\ediz_\\.gradle\\daemon\\8.4\\com.studyrhythmo.app-mergeDebugResources-3:\\layout\\item_study_session.xml",
-        "source": "C:\\Users\\ediz_\\.gradle\\daemon\\8.4\\com.studyrhythmo.app-main-6:\\layout\\item_study_session.xml"
-    },
-    {
-        "merged": "C:\\Users\\ediz_\\.gradle\\daemon\\8.4\\com.studyrhythmo.app-mergeDebugResources-3:\\layout\\fragment_notes.xml",
-        "source": "C:\\Users\\ediz_\\.gradle\\daemon\\8.4\\com.studyrhythmo.app-main-6:\\layout\\fragment_notes.xml"
-    },
-    {
-        "merged": "com.studyrhythmo.app-mergeDebugResources-3:/layout/fragment_add_edit_task.xml",
-        "source": "com.studyrhythmo.app-main-6:/layout/fragment_add_edit_task.xml"
-    },
-    {
-        "merged": "C:\\Users\\ediz_\\.gradle\\daemon\\8.4\\com.studyrhythmo.app-mergeDebugResources-3:\\layout\\fragment_dashboard.xml",
-        "source": "C:\\Users\\ediz_\\.gradle\\daemon\\8.4\\com.studyrhythmo.app-main-6:\\layout\\fragment_dashboard.xml"
-    },
-    {
-        "merged": "C:\\Users\\ediz_\\.gradle\\daemon\\8.4\\com.studyrhythmo.app-mergeDebugResources-3:\\layout\\fragment_schedule.xml",
-        "source": "C:\\Users\\ediz_\\.gradle\\daemon\\8.4\\com.studyrhythmo.app-main-6:\\layout\\fragment_schedule.xml"
+        "merged": "C:\\Users\\ediz_\\.gradle\\daemon\\8.4\\com.studyrhythmo.app-mergeDebugResources-53:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\ediz_\\.gradle\\daemon\\8.4\\com.studyrhythmo.app-main-56:\\layout\\activity_main.xml"
     }
 ]

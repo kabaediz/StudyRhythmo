@@ -52,7 +52,7 @@ class AddEditTaskFragment : Fragment() {
 
         if (args.taskId > 0) {
             viewLifecycleOwner.lifecycleScope.launch {
-                val repo = TaskRepository(AppDatabase.getInstance(requireContext()).taskDao())
+                val repo = TaskRepository(AppDatabase.getInstance(requireContext()).taskDao(), requireContext())
                 editingTask = repo.getTaskById(args.taskId)
                 editingTask?.let { populateFields(it) }
             }

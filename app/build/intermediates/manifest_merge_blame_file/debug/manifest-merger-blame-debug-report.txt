@@ -9,11 +9,11 @@
 9        android:targetSdkVersion="34" />
 10
 11    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
-11-->C:\Users\ediz_\.antigravity\Projekte\StudyRhythmo\app\src\main\AndroidManifest.xml:4:5-77
-11-->C:\Users\ediz_\.antigravity\Projekte\StudyRhythmo\app\src\main\AndroidManifest.xml:4:22-74
+11-->C:\Users\ediz_\StudyRhythmo\app\src\main\AndroidManifest.xml:4:5-77
+11-->C:\Users\ediz_\StudyRhythmo\app\src\main\AndroidManifest.xml:4:22-74
 12    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-12-->C:\Users\ediz_\.antigravity\Projekte\StudyRhythmo\app\src\main\AndroidManifest.xml:5:5-81
-12-->C:\Users\ediz_\.antigravity\Projekte\StudyRhythmo\app\src\main\AndroidManifest.xml:5:22-78
+12-->C:\Users\ediz_\StudyRhythmo\app\src\main\AndroidManifest.xml:5:5-81
+12-->C:\Users\ediz_\StudyRhythmo\app\src\main\AndroidManifest.xml:5:22-78
 13    <uses-permission android:name="android.permission.WAKE_LOCK" />
 13-->[androidx.work:work-runtime:2.9.0] C:\Users\ediz_\.gradle\caches\transforms-3\ad38878b6c4aab4d254e75ffcd8bc872\transformed\work-runtime-2.9.0\AndroidManifest.xml:23:5-68
 13-->[androidx.work:work-runtime:2.9.0] C:\Users\ediz_\.gradle\caches\transforms-3\ad38878b6c4aab4d254e75ffcd8bc872\transformed\work-runtime-2.9.0\AndroidManifest.xml:23:22-65
@@ -36,54 +36,54 @@
 21-->[androidx.core:core:1.12.0] C:\Users\ediz_\.gradle\caches\transforms-3\d4af1deae79d48d54cb3450c0b04d072\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
 22
 23    <application
-23-->C:\Users\ediz_\.antigravity\Projekte\StudyRhythmo\app\src\main\AndroidManifest.xml:7:5-33:19
+23-->C:\Users\ediz_\StudyRhythmo\app\src\main\AndroidManifest.xml:7:5-33:19
 24        android:name="com.studyrhythmo.StudyRhythmoApp"
-24-->C:\Users\ediz_\.antigravity\Projekte\StudyRhythmo\app\src\main\AndroidManifest.xml:8:9-40
+24-->C:\Users\ediz_\StudyRhythmo\app\src\main\AndroidManifest.xml:8:9-40
 25        android:allowBackup="true"
-25-->C:\Users\ediz_\.antigravity\Projekte\StudyRhythmo\app\src\main\AndroidManifest.xml:9:9-35
+25-->C:\Users\ediz_\StudyRhythmo\app\src\main\AndroidManifest.xml:9:9-35
 26        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 26-->[androidx.core:core:1.12.0] C:\Users\ediz_\.gradle\caches\transforms-3\d4af1deae79d48d54cb3450c0b04d072\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
 27        android:debuggable="true"
 28        android:extractNativeLibs="false"
 29        android:icon="@mipmap/ic_launcher"
-29-->C:\Users\ediz_\.antigravity\Projekte\StudyRhythmo\app\src\main\AndroidManifest.xml:10:9-43
+29-->C:\Users\ediz_\StudyRhythmo\app\src\main\AndroidManifest.xml:10:9-43
 30        android:label="@string/app_name"
-30-->C:\Users\ediz_\.antigravity\Projekte\StudyRhythmo\app\src\main\AndroidManifest.xml:11:9-41
+30-->C:\Users\ediz_\StudyRhythmo\app\src\main\AndroidManifest.xml:11:9-41
 31        android:roundIcon="@mipmap/ic_launcher_round"
-31-->C:\Users\ediz_\.antigravity\Projekte\StudyRhythmo\app\src\main\AndroidManifest.xml:12:9-54
+31-->C:\Users\ediz_\StudyRhythmo\app\src\main\AndroidManifest.xml:12:9-54
 32        android:supportsRtl="true"
-32-->C:\Users\ediz_\.antigravity\Projekte\StudyRhythmo\app\src\main\AndroidManifest.xml:13:9-35
+32-->C:\Users\ediz_\StudyRhythmo\app\src\main\AndroidManifest.xml:13:9-35
 33        android:theme="@style/Theme.StudyRhythmo" >
-33-->C:\Users\ediz_\.antigravity\Projekte\StudyRhythmo\app\src\main\AndroidManifest.xml:14:9-50
+33-->C:\Users\ediz_\StudyRhythmo\app\src\main\AndroidManifest.xml:14:9-50
 34        <activity
-34-->C:\Users\ediz_\.antigravity\Projekte\StudyRhythmo\app\src\main\AndroidManifest.xml:16:9-23:20
+34-->C:\Users\ediz_\StudyRhythmo\app\src\main\AndroidManifest.xml:16:9-23:20
 35            android:name="com.studyrhythmo.MainActivity"
-35-->C:\Users\ediz_\.antigravity\Projekte\StudyRhythmo\app\src\main\AndroidManifest.xml:17:13-41
+35-->C:\Users\ediz_\StudyRhythmo\app\src\main\AndroidManifest.xml:17:13-41
 36            android:exported="true" >
-36-->C:\Users\ediz_\.antigravity\Projekte\StudyRhythmo\app\src\main\AndroidManifest.xml:18:13-36
+36-->C:\Users\ediz_\StudyRhythmo\app\src\main\AndroidManifest.xml:18:13-36
 37            <intent-filter>
-37-->C:\Users\ediz_\.antigravity\Projekte\StudyRhythmo\app\src\main\AndroidManifest.xml:19:13-22:29
+37-->C:\Users\ediz_\StudyRhythmo\app\src\main\AndroidManifest.xml:19:13-22:29
 38                <action android:name="android.intent.action.MAIN" />
-38-->C:\Users\ediz_\.antigravity\Projekte\StudyRhythmo\app\src\main\AndroidManifest.xml:20:17-69
-38-->C:\Users\ediz_\.antigravity\Projekte\StudyRhythmo\app\src\main\AndroidManifest.xml:20:25-66
+38-->C:\Users\ediz_\StudyRhythmo\app\src\main\AndroidManifest.xml:20:17-69
+38-->C:\Users\ediz_\StudyRhythmo\app\src\main\AndroidManifest.xml:20:25-66
 39
 40                <category android:name="android.intent.category.LAUNCHER" />
-40-->C:\Users\ediz_\.antigravity\Projekte\StudyRhythmo\app\src\main\AndroidManifest.xml:21:17-77
-40-->C:\Users\ediz_\.antigravity\Projekte\StudyRhythmo\app\src\main\AndroidManifest.xml:21:27-74
+40-->C:\Users\ediz_\StudyRhythmo\app\src\main\AndroidManifest.xml:21:17-77
+40-->C:\Users\ediz_\StudyRhythmo\app\src\main\AndroidManifest.xml:21:27-74
 41            </intent-filter>
 42        </activity>
 43
 44        <receiver
-44-->C:\Users\ediz_\.antigravity\Projekte\StudyRhythmo\app\src\main\AndroidManifest.xml:25:9-31:20
+44-->C:\Users\ediz_\StudyRhythmo\app\src\main\AndroidManifest.xml:25:9-31:20
 45            android:name="com.studyrhythmo.worker.BootReceiver"
-45-->C:\Users\ediz_\.antigravity\Projekte\StudyRhythmo\app\src\main\AndroidManifest.xml:26:13-48
+45-->C:\Users\ediz_\StudyRhythmo\app\src\main\AndroidManifest.xml:26:13-48
 46            android:exported="true" >
-46-->C:\Users\ediz_\.antigravity\Projekte\StudyRhythmo\app\src\main\AndroidManifest.xml:27:13-36
+46-->C:\Users\ediz_\StudyRhythmo\app\src\main\AndroidManifest.xml:27:13-36
 47            <intent-filter>
-47-->C:\Users\ediz_\.antigravity\Projekte\StudyRhythmo\app\src\main\AndroidManifest.xml:28:13-30:29
+47-->C:\Users\ediz_\StudyRhythmo\app\src\main\AndroidManifest.xml:28:13-30:29
 48                <action android:name="android.intent.action.BOOT_COMPLETED" />
-48-->C:\Users\ediz_\.antigravity\Projekte\StudyRhythmo\app\src\main\AndroidManifest.xml:29:17-79
-48-->C:\Users\ediz_\.antigravity\Projekte\StudyRhythmo\app\src\main\AndroidManifest.xml:29:25-76
+48-->C:\Users\ediz_\StudyRhythmo\app\src\main\AndroidManifest.xml:29:17-79
+48-->C:\Users\ediz_\StudyRhythmo\app\src\main\AndroidManifest.xml:29:25-76
 49            </intent-filter>
 50        </receiver>
 51
@@ -254,8 +254,8 @@
 136            <intent-filter>
 136-->[androidx.work:work-runtime:2.9.0] C:\Users\ediz_\.gradle\caches\transforms-3\ad38878b6c4aab4d254e75ffcd8bc872\transformed\work-runtime-2.9.0\AndroidManifest.xml:116:13-120:29
 137                <action android:name="android.intent.action.BOOT_COMPLETED" />
-137-->C:\Users\ediz_\.antigravity\Projekte\StudyRhythmo\app\src\main\AndroidManifest.xml:29:17-79
-137-->C:\Users\ediz_\.antigravity\Projekte\StudyRhythmo\app\src\main\AndroidManifest.xml:29:25-76
+137-->C:\Users\ediz_\StudyRhythmo\app\src\main\AndroidManifest.xml:29:17-79
+137-->C:\Users\ediz_\StudyRhythmo\app\src\main\AndroidManifest.xml:29:25-76
 138                <action android:name="android.intent.action.TIME_SET" />
 138-->[androidx.work:work-runtime:2.9.0] C:\Users\ediz_\.gradle\caches\transforms-3\ad38878b6c4aab4d254e75ffcd8bc872\transformed\work-runtime-2.9.0\AndroidManifest.xml:118:17-73
 138-->[androidx.work:work-runtime:2.9.0] C:\Users\ediz_\.gradle\caches\transforms-3\ad38878b6c4aab4d254e75ffcd8bc872\transformed\work-runtime-2.9.0\AndroidManifest.xml:118:25-70

@@ -11,13 +11,14 @@ import com.studyrhythmo.data.repository.CourseRepository
 import com.studyrhythmo.data.repository.StudySessionRepository
 import com.studyrhythmo.data.repository.TaskRepository
 import kotlinx.coroutines.flow.*
+import kotlinx.coroutines.launch
 import java.util.*
 
 class DashboardViewModel(app: Application) : AndroidViewModel(app) {
 
     private val db = AppDatabase.getInstance(app)
-    private val courseRepo = CourseRepository(db.courseDao())
-    private val taskRepo = TaskRepository(db.taskDao())
+    private val courseRepo = CourseRepository(db.courseDao(), app)
+    private val taskRepo = TaskRepository(db.taskDao(), app)
     private val sessionRepo = StudySessionRepository(db.studySessionDao())
 
     val todayCourses: StateFlow<List<CourseEntity>> = run {
@@ -47,5 +48,9 @@ class DashboardViewModel(app: Application) : AndroidViewModel(app) {
         val end = start + 24L * 60 * 60 * 1000
         sessionRepo.getSessionsBetween(start, end)
             .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5000), emptyList())
+    }
+
+    fun toggleTaskComplete(task: TaskEntity) = viewModelScope.launch {
+        taskRepo.updateTask(task.copy(isCompleted = !task.isCompleted))
     }
 }

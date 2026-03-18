@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.studyrhythmo.app-mergeDebugResources-2:/values-zh-rCN/values-zh-rCN.xml",
+            "outputFile": "com.studyrhythmo.app-mergeDebugResources-52:/values-zh-rCN/values-zh-rCN.xml",
             "map": [
                 {
                     "source": "C:\\Users\\ediz_\\.gradle\\caches\\transforms-3\\d4af1deae79d48d54cb3450c0b04d072\\transformed\\core-1.12.0\\res\\values-zh-rCN\\values-zh-rCN.xml",

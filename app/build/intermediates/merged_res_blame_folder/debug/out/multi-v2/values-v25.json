@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.studyrhythmo.app-mergeDebugResources-2:/values-v25/values-v25.xml",
+            "outputFile": "com.studyrhythmo.app-mergeDebugResources-52:/values-v25/values-v25.xml",
             "map": [
                 {
                     "source": "C:\\Users\\ediz_\\.gradle\\caches\\transforms-3\\0a50cae1f438b08045062f3769072271\\transformed\\appcompat-1.6.1\\res\\values-v25\\values-v25.xml",

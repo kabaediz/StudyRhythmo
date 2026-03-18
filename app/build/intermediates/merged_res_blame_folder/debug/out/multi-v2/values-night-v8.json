@@ -1,27 +1,8 @@
 {
     "logs": [
         {
-            "outputFile": "com.studyrhythmo.app-mergeDebugResources-2:/values-night-v8/values-night-v8.xml",
+            "outputFile": "com.studyrhythmo.app-mergeDebugResources-52:/values-night-v8/values-night-v8.xml",
             "map": [
-                {
-                    "source": "C:\\Users\\ediz_\\.antigravity\\Projekte\\StudyRhythmo\\app\\src\\main\\res\\values-night\\themes.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "57",
-                        "endLines": "49",
-                        "endColumns": "12",
-                        "endOffsets": "2617"
-                    },
-                    "to": {
-                        "startLines": "34",
-                        "startColumns": "4",
-                        "startOffsets": "3448",
-                        "endLines": "81",
-                        "endColumns": "12",
-                        "endOffsets": "5679"
-                    }
-                },
                 {
                     "source": "C:\\Users\\ediz_\\.gradle\\caches\\transforms-3\\7c81887c371ac6b66b98dca16b2570a9\\transformed\\material-1.11.0\\res\\values-night-v8\\values-night-v8.xml",
                     "from": {
@@ -54,6 +35,25 @@
                         "startOffsets": "55,125,209,293,389,491,593,5684",
                         "endColumns": "69,83,83,95,101,101,93,88",
                         "endOffsets": "120,204,288,384,486,588,682,5768"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\ediz_\\StudyRhythmo\\app\\src\\main\\res\\values-night\\themes.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endLines": "49",
+                        "endColumns": "12",
+                        "endOffsets": "2617"
+                    },
+                    "to": {
+                        "startLines": "34",
+                        "startColumns": "4",
+                        "startOffsets": "3448",
+                        "endLines": "81",
+                        "endColumns": "12",
+                        "endOffsets": "5679"
                     }
                 }
             ]

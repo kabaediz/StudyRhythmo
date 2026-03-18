@@ -14,7 +14,7 @@ import kotlinx.coroutines.launch
 enum class TaskFilter { ALL, THIS_WEEK, EXAMS, HIGH_PRIORITY }
 
 class TasksViewModel(app: Application) : AndroidViewModel(app) {
-    private val repo = TaskRepository(AppDatabase.getInstance(app).taskDao())
+    private val repo = TaskRepository(AppDatabase.getInstance(app).taskDao(), app)
 
     private val _filter = MutableStateFlow(TaskFilter.ALL)
     val filter: StateFlow<TaskFilter> = _filter.asStateFlow()

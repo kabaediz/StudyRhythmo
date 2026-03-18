@@ -10,7 +10,7 @@ import kotlinx.coroutines.flow.*
 import kotlinx.coroutines.launch
 
 class ScheduleViewModel(app: Application) : AndroidViewModel(app) {
-    private val repo = CourseRepository(AppDatabase.getInstance(app).courseDao())
+    private val repo = CourseRepository(AppDatabase.getInstance(app).courseDao(), app)
 
     val courses: StateFlow<List<CourseEntity>> =
         repo.getAllCourses().stateIn(viewModelScope, SharingStarted.WhileSubscribed(5000), emptyList())

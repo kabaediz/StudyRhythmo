@@ -38,7 +38,7 @@ class DashboardFragment : Fragment() {
         binding.textDate.text = sdf.format(Date())
 
         courseAdapter = CourseAdapter()
-        taskAdapter = TaskAdapter(onToggleComplete = {})
+        taskAdapter = TaskAdapter(onToggleComplete = { viewModel.toggleTaskComplete(it) })
         sessionAdapter = StudySessionAdapter()
 
         binding.recyclerTodayCourses.adapter = courseAdapter
