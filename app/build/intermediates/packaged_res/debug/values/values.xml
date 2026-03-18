@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="amber_100">#FEF3C7</color>
+    <color name="amber_400">#FBBF24</color>
+    <color name="amber_500">#F59E0B</color>
+    <color name="amber_700">#B45309</color>
+    <color name="amber_900">#78350F</color>
+    <color name="black">#FF000000</color>
+    <color name="course_amber">#F59E0B</color>
+    <color name="course_emerald">#10B981</color>
+    <color name="course_indigo">#6366F1</color>
+    <color name="course_rose">#F43F5E</color>
+    <color name="course_sky">#0EA5E9</color>
+    <color name="course_violet">#8B5CF6</color>
+    <color name="emerald_100">#D1FAE5</color>
+    <color name="emerald_200">#A7F3D0</color>
+    <color name="emerald_400">#34D399</color>
+    <color name="emerald_50">#ECFDF5</color>
+    <color name="emerald_500">#10B981</color>
+    <color name="emerald_600">#059669</color>
+    <color name="emerald_700">#047857</color>
+    <color name="emerald_800">#065F46</color>
+    <color name="emerald_900">#064E3B</color>
+    <color name="indigo_100">#E0E7FF</color>
+    <color name="indigo_200">#C7D2FE</color>
+    <color name="indigo_300">#A5B4FC</color>
+    <color name="indigo_400">#818CF8</color>
+    <color name="indigo_50">#EEF2FF</color>
+    <color name="indigo_500">#6366F1</color>
+    <color name="indigo_600">#4F46E5</color>
+    <color name="indigo_700">#4338CA</color>
+    <color name="indigo_800">#3730A3</color>
+    <color name="indigo_900">#312E81</color>
+    <color name="priority_high">#EF4444</color>
+    <color name="priority_high_container">#FEE2E2</color>
+    <color name="priority_low">#10B981</color>
+    <color name="priority_low_container">#D1FAE5</color>
+    <color name="priority_medium">#F59E0B</color>
+    <color name="priority_medium_container">#FEF3C7</color>
+    <color name="red_100">#FEE2E2</color>
+    <color name="red_400">#F87171</color>
+    <color name="red_500">#EF4444</color>
+    <color name="red_700">#B91C1C</color>
+    <color name="red_900">#7F1D1D</color>
+    <color name="slate_100">#F1F5F9</color>
+    <color name="slate_200">#E2E8F0</color>
+    <color name="slate_300">#CBD5E1</color>
+    <color name="slate_400">#94A3B8</color>
+    <color name="slate_50">#F8FAFC</color>
+    <color name="slate_500">#64748B</color>
+    <color name="slate_600">#475569</color>
+    <color name="slate_700">#334155</color>
+    <color name="slate_800">#1E293B</color>
+    <color name="slate_900">#0F172A</color>
+    <color name="slate_950">#020617</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="add_course">Kurs hinzufügen</string>
+    <string name="add_note">Notiz hinzufügen</string>
+    <string name="add_study_session">Lernsession hinzufügen</string>
+    <string name="add_task">Aufgabe hinzufügen</string>
+    <string name="all">Alle</string>
+    <string name="app_name">StudyRhythmo</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="course_name">Kursname</string>
+    <string name="dashboard_subtitle">Dein Studientag im Überblick</string>
+    <string name="day_of_week">Wochentag</string>
+    <string name="delete">Löschen</string>
+    <string name="description">Beschreibung</string>
+    <string name="due_date">Fälligkeitsdatum</string>
+    <string name="duration_minutes">Dauer (Minuten)</string>
+    <string name="edit">Bearbeiten</string>
+    <string name="end_time">Endzeit</string>
+    <string name="exams">Prüfungen</string>
+    <string name="high_priority">Hohe Priorität</string>
+    <string name="instructor">Dozent</string>
+    <string name="nav_dashboard">Heute</string>
+    <string name="nav_notes">Notizen</string>
+    <string name="nav_schedule">Stundenplan</string>
+    <string name="nav_study">Lernen</string>
+    <string name="nav_tasks">Aufgaben</string>
+    <string name="no_courses_this_day">Keine Kurse an diesem Tag 📅</string>
+    <string name="no_courses_today">Keine Kurse heute ✨</string>
+    <string name="no_notes">Noch keine Notizen 📝</string>
+    <string name="no_study_sessions">Keine Sessions geplant ⏱️</string>
+    <string name="no_study_sessions_today">Keine Lernsessions heute</string>
+    <string name="no_tasks">Keine Aufgaben 🎉</string>
+    <string name="no_upcoming_tasks">Keine Aufgaben diese Woche 🎉</string>
+    <string name="note_content">Notizinhalt</string>
+    <string name="note_title">Notiztitel</string>
+    <string name="pick_date">Datum wählen</string>
+    <string name="pick_date_time">Datum &amp; Zeit wählen</string>
+    <string name="planned_start">Geplanter Start</string>
+    <string name="priority">Priorität</string>
+    <string name="reminder_minutes">Erinnerung (Minuten vorher)</string>
+    <string name="room">Raum</string>
+    <string name="save">Speichern</string>
+    <string name="search_notes">Notizen durchsuchen…</string>
+    <string name="session_complete">Session abgeschlossen! 🎉</string>
+    <string name="start">Starten</string>
+    <string name="start_time">Startzeit</string>
+    <string name="stop">Stoppen</string>
+    <string name="study_sessions">Lernsessions</string>
+    <string name="task_title">Aufgabentitel</string>
+    <string name="this_week">Diese Woche</string>
+    <string name="today_courses">Heutige Kurse</string>
+    <string name="today_study_sessions">Heutige Lernsessions</string>
+    <string name="topic">Thema</string>
+    <string name="type">Typ</string>
+    <string name="upcoming_tasks">Bevorstehende Aufgaben</string>
+    <style name="ShapeAppearance.StudyRhythmo.Large" parent="ShapeAppearance.Material3.LargeComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">28dp</item>
+    </style>
+    <style name="ShapeAppearance.StudyRhythmo.Medium" parent="ShapeAppearance.Material3.MediumComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item>
+    </style>
+    <style name="TextAppearance.StudyRhythmo.SectionLabel" parent="TextAppearance.Material3.LabelLarge">
+        <item name="android:textColor">?attr/colorOnSurfaceVariant</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:letterSpacing">0.08</item>
+    </style>
+    <style name="Theme.StudyRhythmo" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">@color/indigo_500</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/indigo_100</item>
+        <item name="colorOnPrimaryContainer">@color/indigo_900</item>
+        <item name="colorPrimaryInverse">@color/indigo_200</item>
+
+        
+        <item name="colorSecondary">@color/emerald_500</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorSecondaryContainer">@color/emerald_100</item>
+        <item name="colorOnSecondaryContainer">@color/emerald_900</item>
+
+        
+        <item name="colorTertiary">@color/amber_500</item>
+        <item name="colorOnTertiary">@color/white</item>
+        <item name="colorTertiaryContainer">@color/amber_100</item>
+        <item name="colorOnTertiaryContainer">@color/amber_900</item>
+
+        
+        <item name="colorError">@color/red_500</item>
+        <item name="colorOnError">@color/white</item>
+        <item name="colorErrorContainer">@color/red_100</item>
+        <item name="colorOnErrorContainer">@color/red_900</item>
+
+        
+        <item name="android:colorBackground">@color/white</item>
+        <item name="colorOnBackground">@color/slate_800</item>
+        <item name="colorSurface">@color/slate_50</item>
+        <item name="colorOnSurface">@color/slate_800</item>
+        <item name="colorSurfaceVariant">@color/slate_100</item>
+        <item name="colorOnSurfaceVariant">@color/slate_500</item>
+        <item name="colorSurfaceInverse">@color/slate_800</item>
+        <item name="colorOnSurfaceInverse">@color/slate_100</item>
+
+        
+        <item name="colorOutline">@color/slate_300</item>
+        <item name="colorOutlineVariant">@color/slate_200</item>
+
+        
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:windowLightStatusBar">true</item>
+
+        
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.StudyRhythmo.Medium</item>
+        <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.StudyRhythmo.Large</item>
+    </style>
+</resources>
